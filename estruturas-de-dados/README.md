@@ -33,4 +33,9 @@
 ### Listas duplamente encadeadas
 - Nesse caso cada No tem duas referencias: uma para o proximo  no e a referencia para o no anterior
 - Tembem tem uma referencia para entrada da lista e uma referencia para o fim da fila
-- Metodos: add(el), remove(index), get(index), add(index, ele), 
+- Metodos: add(el), remove(index), get(index), add(index, ele)
+
+### Listas circulares
+- A refrencia de proximo no do ultimo elemento da lista aponta para o primeiro no.
+- possui uma cauda(primeiro no ==> refeEntrada), cabeça (ultimo no)
+- Metodos: remove(), get(index), add(el), isEmpty()
