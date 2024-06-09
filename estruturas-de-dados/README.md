@@ -14,13 +14,13 @@
 
 #### Encadeamneto de nó
 
-![Encadeamneto de nó](estrutura-de-dados/assets/encadeamento-no.png)
+![Encadeamneto de nó](estrutura-de-dados/assets/encadeamento-Nó.png)
 
 ### Pilhas
 
 - O último elemento a entrar é o primerio a sair (LIFO - Last In, First Out)
-- Nesse caso a referencia de proximo no é de o de cima (ultimo adicionado) apontando para o de baixo (no que ja estava na pilha)
-- Metodos: Top, Pop (remove o elemento do topo), Push (adiciona um elemento no topo), IsEmpty
+- Nesse caso a referencia de proximo Nó é de o de cima (ultimo adicionado) apontando para o de baixo (Nó que ja estava na pilha)
+- Metodos: Top, Pop (remove o elemento do topo), Push (adiciona um elemento Nó topo), IsEmpty
 
 ### Filas
 
@@ -28,14 +28,27 @@
 - Metodos: enqueue (enfilerar), dequeue (desenfilerar), isEmty
 
 ### Listas encadeadas
-- Metodos: add (adição no fim da lista), remove (remoção de qualquer item da lista), get (pega uma referencai do nó sem excluir)
+- Metodos: add (adição Nó fim da lista), remove (remoção de qualquer item da lista), get (pega uma referencai do nó sem excluir)
 
 ### Listas duplamente encadeadas
-- Nesse caso cada No tem duas referencias: uma para o proximo  no e a referencia para o no anterior
+- Nesse caso cada Nó tem duas referencias: uma para o proximo  Nó e a referencia para o Nó anterior
 - Tembem tem uma referencia para entrada da lista e uma referencia para o fim da fila
 - Metodos: add(el), remove(index), get(index), add(index, ele)
 
 ### Listas circulares
-- A refrencia de proximo no do ultimo elemento da lista aponta para o primeiro no.
-- possui uma cauda(primeiro no ==> refeEntrada), cabeça (ultimo no)
+- A refrencia de proximo Nó do ultimo elemento da lista aponta para o primeiro Nó.
+- possui uma cauda(primeiro Nó ==> refeEntrada), cabeça (ultimo Nó)
 - Metodos: remove(), get(index), add(el), isEmpty()
+
+
+### Arvores
+- Estrutura de dados bidimensionais não lineares
+- Nós que arazenam os dados com base em relações de dependencias.
+- Utilização: sistemas de arquivos, banco de dados, interfaces graficas e paginas web
+- Cateristicas de Arvore hierarquia: Nó, raiz, pai, irmão, nivel de um Nó, altura ou profundidade, folha, Nó interno, grau de um nó...
+- Arvores binarias: nó menor a esquerda, nó maior a direita
+- Exclusão: pega o maior elemento a esquerda do nó que quer excluir e o substitui.
+- Exibição: Algoritmos recursivos.
+- Atravessamneto in-ordem: visiat o nó a esquerda => imprime ele => visita o nó a direita
+- Atravessamento em pre-ordem: Primeiro mostra araiz, vai pra esquerda e depois a direita em loop e vai exibindo
+- Atravessamneto em pos-ordem: visita primeiro para depois exibir.
