@@ -28,4 +28,9 @@
 - Metodos: enqueue (enfilerar), dequeue (desenfilerar), isEmty
 
 ### Listas encadeadas
-- Metodos: add (adição aleatória), remove (remoção de qualquer item da lista), get (pega uma referencai do nó sem excluir)
+- Metodos: add (adição no fim da lista), remove (remoção de qualquer item da lista), get (pega uma referencai do nó sem excluir)
+
+### Listas duplamente encadeadas
+- Nesse caso cada No tem duas referencias: uma para o proximo  no e a referencia para o no anterior
+- Tembem tem uma referencia para entrada da lista e uma referencia para o fim da fila
+- Metodos: add(el), remove(index), get(index), add(index, ele), 
