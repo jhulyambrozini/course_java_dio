@@ -26,3 +26,6 @@
 
 - First in, Fisrt out (FIFO): O primeiro a entrar é o primeiro a sair
 - Metodos: enqueue (enfilerar), dequeue (desenfilerar), isEmty
+
+### Listas encadeadas
+- Metodos: add (adição aleatória), remove (remoção de qualquer item da lista), get (pega uma referencai do nó sem excluir)
