@@ -52,3 +52,7 @@
 - Atravessamneto in-ordem: visiat o nó a esquerda => imprime ele => visita o nó a direita
 - Atravessamento em pre-ordem: Primeiro mostra araiz, vai pra esquerda e depois a direita em loop e vai exibindo
 - Atravessamneto em pos-ordem: visita primeiro para depois exibir.
+
+### Equals e Hascode
+- Melhora a busca de objetos
+- Devem ser implementados juntos
